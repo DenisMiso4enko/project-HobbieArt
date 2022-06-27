@@ -1,0 +1,226 @@
+/*  font-family: 'Montserrat', sans-serif;
+    font-family: 'Spectral SC', serif; */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #424242;
+}
+a {
+    color: inherit;
+}
+.container {
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.wrapper-top {
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 14px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    
+}
+.header-top {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    color: #FFFFFF;
+}
+.header-top__phone {
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+    
+}
+.header-top__phone::before {
+    content: url(../img/icon/phone.svg);
+    position: absolute;
+}
+.header-top__place {
+    position: relative;
+}
+.header-top__place::before {
+    content: url(../img/icon/place.svg);
+    position: absolute;
+}
+.header-top__time {
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+}
+.header-top__time::before {
+    content: url(../img/icon/clock.svg);
+    position: absolute;
+}
+
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px 0;
+}
+.header-bottom__left {
+}
+.nav-menu {
+    display: flex;
+}
+.nav-menu li {
+    margin-right: 24px;
+}
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+.nav-item {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}
+.header-bottom__logo {
+}
+.header-bottom__right {
+}
+.search {
+    max-width: 198px;
+    height: 38px;
+    border: 1px solid #BDBDBD;
+    border-radius: 46px;
+    padding: 10px 28px;
+}
+.btn {
+
+}
+.enter {
+    padding: 10px 17px;
+    border: 1px solid #BDBDBD;
+    border-radius: 46px;
+    background: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+.favor {
+    padding: 10px 17px;
+    border: 1px solid #BDBDBD;
+    border-radius: 46px;
+    background: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+.cart {
+    padding: 10px 17px;
+    border: 1px solid #BDBDBD;
+    border-radius: 46px;
+    background: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+
+
+
+
+.main {
+}
+.main-content {
+    background: linear-gradient(101.38deg, #DDDDBF 3.06%, #ECECD5 85.68%);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.main-content__left {
+    width: 50%;
+    padding: 11px 119px 26px 129px;
+    z-index: 3;
+}
+.main-content__right {
+    width: 50%;
+    z-index: 3;
+}
+.main-content__right__title {
+    font-family: 'Spectral SC';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #424242;
+    margin-bottom: 48px;
+}
+.main-content__right__text {
+    max-width: 446px;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: rgba(94, 92, 90, 0.8);
+    margin-bottom: 48px;
+}
+.btn {
+    padding: 13px 45px;
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    border-radius: 49px;
+    color: #FFFFFF;
+    font-family: 'Spectral SC';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.brown {
+}
+.header-bottom__right::before {
+    content: url(../img/hit.svg);
+    position: absolute;
+    top: 216px;
+    right: 139px;
+    z-index: 100;
+}
+.main-content__left::before {
+    content: url(../img/vector1.svg);
+    position: absolute;
+    top: 1px;
+    left: 39%;
+}
+.main-content__right::before {
+    content: url(../img/vector2.svg);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.bgheader {
+    font-family: 'Spectral SC';
+    font-weight: 300;
+    font-size: 245.936px;
+    line-height: 142.2%;
+    text-transform: uppercase;
+    color: rgba(94, 92, 90, 0.03);
+    transform: matrix(0.98, -0.15, 0.23, 0.99, 0, 0);
+    position: absolute;
+    top: -36px;
+    left: -40px;
+    z-index: 0;
+}
+.bgheader2 {
+    position: absolute;
+    font-family: 'Spectral SC';
+    font-weight: 300;
+    font-size: 245.936px;
+    line-height: 142.2%;
+    text-transform: uppercase;
+    color: rgba(94, 92, 90, 0.03);
+    transform: matrix(1, -0.06, 0.08, 1, 0, 0);
+    left: 77px;
+    top: 244px;
+    z-index: 0;
+}
